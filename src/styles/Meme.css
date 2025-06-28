@@ -1,0 +1,66 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 10px;
+}
+main{
+    padding: 36px;
+}
+.form--button{
+    grid-column:  1 / -1 ;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+
+
+}
+.form--button:hover{
+
+    color: white;
+ 
+}
+.form--input{
+    text-indent: 5px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.cont{
+    margin: 10px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: red;
+    font-size: 24px;
+    font-weight: 700;
+}
+.meme--image{
+    max-height: 100%;
+    max-width: 100%;
+}
+.container{
+    height: 1000px;
+}
+.topText{
+    position: absolute;
+    top: 20px;
+    letter-spacing: 1px;
+}
+.bottomText{
+    position: absolute;
+    bottom: 20px;
+    letter-spacing: 1px;
+
+}
